@@ -24,7 +24,7 @@ clean:
 ```
 Para compilar: `make`
 
-Para ejecutar: `./lexer test1.asm` o solo `./lexer` para evaluar desde la entrada estándar.
+Para ejecutar: `./lexer ejemplos/test1.asm` o solo `./lexer` para evaluar desde la entrada estándar.
 
 Manual: (https://westes.github.io/flex/manual)
 
@@ -35,7 +35,7 @@ El objetivo principal de este trabajo es que funcione como un repaso de la utili
 Para poner en práctica estos conceptos se construirá un **ensablador** para assembler del MOS6502, al ser este un assembler sencillo y pequeño de fácil procesamiento.
 
 Ejemplo 1:
-```assembly
+```asm
 ; Programa principal en la página $06
 .org $0600
   LDX #$00
