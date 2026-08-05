@@ -94,7 +94,7 @@ Implementar de forma incremental, un modo a la vez. Para cada paso, la especific
 1. **Página cero (ZP)** - Ej: `LDA $10`.
 1. **Absoluto** - Ej: `LDA $1000`.
 1. **Inmediato** - Ej: `LDA #$10`.
-1. **Hexa: `$10`, Binario: `%10101010` y Decimal: `10` 
+1. Hexa: `$10`, Binario: `%10101010` y Decimal: `10` 
 1. **Indexados** de los anteriores:
    - Página cero indexado: `LDA $10,X` / `LDX $10,Y`
    - Absoluto indexado: `LDA $1000,X` / `LDA $1000,Y`
